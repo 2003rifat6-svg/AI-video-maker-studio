@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+server-data/
+dist-server/
+
+# root .gitignore ignores "data/"; this one is source code and must be kept
+!src/data/
